@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: url(/assets/Blue\ Elegant\ Business\ Desktop\ Wallpaper\ .png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+/* Start Navbar */
+.navbar {
+    position: fixed;
+    background: rgb(119, 119, 119);
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 150px;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+li a:hover {
+    color: orange;
+}
+
+span {
+    color: orange;
+}
+.navbar,
+.nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.nav-links {
+    column-gap: 15px;
+    list-style: none;
+}
+
+input {
+    height: 40px;
+    width: 90px;
+    border-radius: 9px;
+    background: orange;
+    border: 2px solid orange;
+    font-weight: 500;
+    font-size: 12px;
+    opacity: 0.8;
+}
+input:hover{
+    opacity: 1;
+}
+.login-btn {
+    margin-left: 10px;
+}
+.login-btn:hover {
+    color: orange;
+}
+/* End Header */
+
+
+/* Content */
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    padding: 0 150px;
+    background: black;
+    line-height: 40px;
+}
+
+.content-logo {
+    color: #fff;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 30px;
+}
+.content-header p {
+    font-size: 22px;
+    color: #fff;
+}
+.content-header .start-btn {
+    border: 1px solid orange;
+    border-radius: 5px;
+    background: orange;
+    padding: 15px 10px;
+    font-weight: 600;
+    opacity: 0.9;
+}
+.content-header .start-btn:hover {
+    opacity: 1;
+}
+.services {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: orange;
+}
+.services-header{
+    padding: 0 30px;
+}
+.services-header h1 {
+    font-size: 80px;
+    font-weight: 700;
+    margin-left: 100px;
+}
+.services-header p {
+    padding: 0 50px;
+}
+.services-header a {
+    border: 1px solid black;
+    padding: 10px 15px;
+    margin-left: 120px;
+    border-radius: 5px;
+    background: black;
+}
+
+.content-img img {
+    margin: 70px;
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    /* transition: width 2s, height 4s; */
+}
+
+.content-media {
+    background: black;
+}
+
+.content-media video{
+    height: 900px;
+    width: 600px;
+    padding: 0 50px;
+}
+
+.content-media h1 {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    align-items: center;
+    padding-top: 40px;
+    font-size: 45px;
+}
+.content-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-box > div {
+    border: 2px solid orange;
+    border-radius: 50%;
+    color: orange;
+    margin: 30px;
+    height: 250px;
+    width: 250px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.content-box .bxs-user-circle,
+.content-box .bx-briefcase,
+.content-box .bx-buildings{
+    font-size: 200px;
+    text-align: center;
+}
+.content-video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-video .video{
+    height: 50%;
+}
+.form-submit h1 {
+    text-align: center;
+}
+.about-content {
+    background: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-content .form {
+    margin: 80px;
+    border: 2px solid black;
+    border-radius: 8px;
+    width: 700px;
+    padding: 40px;
+}
+.form .form-submit{
+    display: grid;
+}
+.form-submit label {
+    font-size: 22px;
+    font-weight: 600;
+}
+.form-submit input{
+    height: 40px;
+    width: 300px;
+    padding-left: 20px;
+    line-height: 8px;
+    border: 1px solid black;
+}
+
+.submit-btn .submit{
+    background: black;
+    color: #fff;
+    margin-top: 10px;
+    width: 80px;
+}
+
+.footer footer{
+    background: black;
+    color: #fff;
+}
